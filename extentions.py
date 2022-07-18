@@ -76,6 +76,7 @@ class Calculate:
 
     @staticmethod
     def convert(curses, base, sym, amount):
+
         # Проверим корректность введенных данных
         if any([not isinstance(base, str), len(base) != 3]):
             return CalcBaseException()
