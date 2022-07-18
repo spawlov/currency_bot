@@ -7,6 +7,6 @@
     Перевод валют
 </p>
 <hr>
-<p align="center>">
+<p align="center">
     <i>Имя бота в Телеграм: spw_test</i>
 </p>
