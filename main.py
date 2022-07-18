@@ -30,7 +30,10 @@ if __name__ == '__main__':
             base, sym, amount = message.text.split()
         except ValueError:
             BotUserException(
-                bot.reply_to(message, 'Неверно задано число параметров')
+                bot.reply_to(
+                    message, 'Неверно задано число параметров\n'
+                             'или неверная команда'
+                )
             )
         else:
             bot.reply_to(

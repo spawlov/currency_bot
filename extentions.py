@@ -98,7 +98,7 @@ class Calculate:
 
         sym = sym.upper()
         try:
-            sym_cost = 1 if base == 'RUB' else \
+            sym_cost = 1 if sym == 'RUB' else \
                 curses[sym][0] / curses[sym][1]
         except KeyError:
             return CalcSymException
